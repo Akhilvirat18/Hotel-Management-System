@@ -1,0 +1,339 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Deluxe Room",
+      "type": "Deluxe",
+      "price": 1500,
+      "capacity": 2,
+      "description": "A luxurious room with a king-size bed, modern amenities, and a beautiful city view.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Suite Room",
+      "type": "Suite",
+      "price": 2500,
+      "capacity": 4,
+      "description": "Spacious suite with separate living area, premium furnishings, and stunning views.",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Jacuzzi",
+        "Balcony"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Standard Room",
+      "type": "Standard",
+      "price": 1000,
+      "capacity": 2,
+      "description": "Comfortable room with essential amenities for a pleasant stay.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=500",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Family Room",
+      "type": "Family",
+      "price": 2000,
+      "capacity": 5,
+      "description": "Perfect for families, with multiple beds and ample space for everyone.",
+      "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=500",
+      "amenities": [
+        "WiFi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge",
+        "Extra Beds"
+      ]
+    },
+    {
+      "id": "190e",
+      "name": "Test Room",
+      "type": "Standard",
+      "price": 1200,
+      "capacity": 2,
+      "description": "Test",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=500",
+      "amenities": [
+        "WiFi",
+        "TV"
+      ]
+    },
+    {
+      "name": "Balcony House",
+      "type": "Deluxe",
+      "price": 3000,
+      "capacity": 8,
+      "description": "Open whether with cool breezes",
+      "image": "https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "AC"
+      ],
+      "id": "761d"
+    },
+    {
+      "id": "room-101",
+      "name": "Ocean View Suite",
+      "type": "Suite",
+      "price": 4500,
+      "capacity": 3,
+      "description": "Breathtaking ocean views with a private balcony and luxury amenities.",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=500",
+      "amenities": [
+        "WiFi",
+        "Ocean View",
+        "Jacuzzi",
+        "Room Service"
+      ]
+    },
+    {
+      "id": "room-102",
+      "name": "Mountain Retreat",
+      "type": "Standard",
+      "price": 1800,
+      "capacity": 2,
+      "description": "Cozy room with a fireplace and stunning mountain scenery.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500",
+      "amenities": [
+        "WiFi",
+        "Fireplace",
+        "Heating",
+        "Breakfast"
+      ]
+    },
+    {
+      "id": "room-103",
+      "name": "Business Executive",
+      "type": "Deluxe",
+      "price": 2800,
+      "capacity": 1,
+      "description": "Designed for business travelers with a dedicated workspace and high-speed internet.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500",
+      "amenities": [
+        "High-Speed WiFi",
+        "Work Desk",
+        "Coffee Maker",
+        "Ironing"
+      ]
+    },
+    {
+      "id": "room-104",
+      "name": "Honeymoon Special",
+      "type": "Suite",
+      "price": 5000,
+      "capacity": 2,
+      "description": "Romantic setting with rose petals, champagne service, and a king-size bed.",
+      "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=500",
+      "amenities": [
+        "WiFi",
+        "Champagne",
+        "Bathtub",
+        "Candlelight Dinner"
+      ]
+    },
+    {
+      "id": "room-105",
+      "name": "Backpacker Dorm",
+      "type": "Standard",
+      "price": 800,
+      "capacity": 1,
+      "description": "Affordable and social accommodation for solo travelers.",
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500",
+      "amenities": [
+        "WiFi",
+        "Locker",
+        "Shared Lounge",
+        "Kitchen Access"
+      ]
+    },
+    {
+      "id": "room-106",
+      "name": "Penthouse Suite",
+      "type": "Suite",
+      "price": 10000,
+      "capacity": 6,
+      "description": "The ultimate luxury experience on the top floor with panoramic city views.",
+      "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=500",
+      "amenities": [
+        "Private Pool",
+        "Butler Service",
+        "Home Theater",
+        "Bar"
+      ]
+    },
+    {
+      "id": "room-107",
+      "name": "Garden Villa",
+      "type": "Family",
+      "price": 3500,
+      "capacity": 4,
+      "description": "Peaceful villa surrounded by lush gardens, perfect for relaxation.",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500",
+      "amenities": [
+        "WiFi",
+        "Garden Access",
+        "Patio",
+        "BBQ Grill"
+      ]
+    },
+    {
+      "id": "room-108",
+      "name": "Studio Apartment",
+      "type": "Standard",
+      "price": 2200,
+      "capacity": 2,
+      "description": "Self-contained unit with a kitchenette, ideal for longer stays.",
+      "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=500",
+      "amenities": [
+        "WiFi",
+        "Kitchenette",
+        "Washing Machine",
+        "TV"
+      ]
+    },
+    {
+      "id": "room-109",
+      "name": "Twin Room",
+      "type": "Standard",
+      "price": 1600,
+      "capacity": 2,
+      "description": "Comfortable room with two single beds, great for friends traveling together.",
+      "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500",
+      "amenities": [
+        "WiFi",
+        "Twin Beds",
+        "TV",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": "room-110",
+      "name": "Presidential Suite",
+      "type": "Suite",
+      "price": 15000,
+      "capacity": 4,
+      "description": "Experience royalty with our most exclusive and spacious suite.",
+      "image": "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=500",
+      "amenities": [
+        "WiFi",
+        "Private Elevator",
+        "Meeting Room",
+        "Sauna"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "roomId": 1,
+      "checkIn": "2025-12-10",
+      "checkOut": "2025-12-15",
+      "guestName": "John Doe"
+    },
+    {
+      "id": "9d18",
+      "roomId": 1,
+      "guestName": "John DoeJane Doe",
+      "checkIn": "2025-12-10",
+      "checkOut": "2025-12-15",
+      "room": {
+        "id": "1",
+        "name": "Deluxe Room",
+        "type": "Deluxe",
+        "price": 1500,
+        "capacity": 2,
+        "description": "A luxurious room with a king-size bed, modern amenities, and a beautiful city view.",
+        "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=500",
+        "amenities": [
+          "WiFi",
+          "TV",
+          "Air Conditioning",
+          "Mini Bar"
+        ]
+      }
+    },
+    {
+      "id": "bf19",
+      "roomId": 1,
+      "guestName": "Akhil",
+      "checkIn": "2025-12-02",
+      "checkOut": "2025-12-08"
+    },
+    {
+      "id": "86aa",
+      "roomId": 2,
+      "userId": "6cbc",
+      "guestName": "Akjyy",
+      "checkIn": "2025-12-04",
+      "checkOut": "2025-12-10"
+    },
+    {
+      "id": "c766",
+      "roomId": 2,
+      "userId": "18c8",
+      "guestName": "Akhil",
+      "checkIn": "2025-12-03",
+      "checkOut": "2025-12-11"
+    },
+    {
+      "id": "e6ef",
+      "roomId": 3,
+      "userId": "1",
+      "guestName": "Akhil",
+      "checkIn": "2025-12-03",
+      "checkOut": "2025-12-06"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "user@demo.com",
+      "password": "password123"
+    },
+    {
+      "id": "6cbc",
+      "name": "Akhil Bhupathi",
+      "email": "akhilbhupathi12@gmail.com",
+      "password": "akhilbhupathi"
+    },
+    {
+      "id": "18c8",
+      "name": "Akhil",
+      "email": "akhilbhhupathi12@gmail.com",
+      "password": "9347780154"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "name": "Akhil Bhupathi",
+      "username": "Akhil Bhupathi",
+      "password": "akhilbhupathi"
+    }
+  ]
+}
