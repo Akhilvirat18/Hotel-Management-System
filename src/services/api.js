@@ -1,18 +1,11 @@
 import axios from 'axios';
-
-// Base URL for JSON Server
 const API_BASE_URL = 'http://localhost:3000';
-
-// Create axios instance
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
 });
-
-// ============ ROOMS API ============
-
 /**
  * Get all rooms
  * @returns {Promise} Array of rooms
@@ -87,9 +80,6 @@ export const deleteRoom = async (id) => {
     throw error;
   }
 };
-
-// ============ BOOKINGS API ============
-
 /**
  * Get all bookings
  * @returns {Promise} Array of bookings
@@ -165,8 +155,6 @@ export const deleteBooking = async (id) => {
   }
 };
 
-// ============ AUTHENTICATION API ============
-
 /**
  * User Signup
  * @param {Object} userData - User data (name, email, password)
@@ -174,13 +162,11 @@ export const deleteBooking = async (id) => {
  */
 export const signupUser = async (userData) => {
   try {
-    // Check if user already exists
     const response = await api.get(`/users?email=${userData.email}`);
     if (response.data.length > 0) {
       throw new Error('User with this email already exists');
     }
 
-    // Create new user
     const newUser = await api.post('/users', userData);
     return newUser.data;
   } catch (error) {
