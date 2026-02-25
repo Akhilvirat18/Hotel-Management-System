@@ -258,9 +258,6 @@ This is a *demo application* for learning purposes. In production:
 - Add HTTPS encryption
 - Use environment variables for sensitive data
 
----
-
-*Made with ❤ for Hotel Management*
 =======
 # Hotel-Room-Management-System
 A complete hotel room booking application built using React, React Router, Tailwind CSS, and a JSON Server backend.  This project allows users to browse rooms, view details, create bookings, and manage their reservations. Admins can manage room data through the backend.
